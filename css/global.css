@@ -1,0 +1,55 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.titulo {
+    text-transform: uppercase;
+}
+
+.subtitulo {
+color: var (--medium);
+font-weight: 400;
+}
+
+.bloco {
+margin-bottom: 120px;
+}
+
+.coracoes {
+    width: 200px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: var(--one);
+}
+
+.botao {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+.botao1 {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.botao1:hover {
+    background-color: var(--one);
+    border-color: var(--one);
+}
+
+.botao2 {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.botao2:hover {
+    background-color: var(--one);
+    border-color: var(--one);
+}

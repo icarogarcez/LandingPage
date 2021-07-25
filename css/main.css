@@ -1,0 +1,7 @@
+/*Responsável por puxar e carregar todos os utilitários*/
+
+@import url(./bootstrap.min.css);
+@import url(./config.css);
+@import url(./global.css);
+@import url(./style.css);
+@import url(./responsive.css);

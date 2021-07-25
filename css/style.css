@@ -1,0 +1,138 @@
+/*Configurações de estilo CSS*/
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+.topo {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #fff !important;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+
+.fixar {
+    position: fixed;
+    margin: 0;
+    top: 0px !important;
+    height: 64px;
+    background: #fff;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.1), 0 7px 7px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: black;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--secundary);
+    color: var(--secundary);
+}
+
+.imageminicio {
+    width: 500px;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#servicos a.destaque {
+    display: block;
+    background-color: var(--light);
+    border-radius: 5px;
+    text-align:center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover {
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+    transform:scale(1.05);
+}
+
+#servicos p {
+    color: var(--dark);
+}
+
+#servicos a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+
+}
+
+#servicos a.destaque .img-container img {
+max-height: 160px;
+}
+
+#depoimentos .depoimento {
+    background-color: var(--light);
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+}
+
+#depoimentos .depoimento .citacao {
+    max-width: 35px;
+    float: right;
+}
+
+#depoimentos .depoimento .nome {
+    color: #000;
+}
+
+#depoimentos .depoimento .nome span {
+    color: #800080;
+    font-weight: 700;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+ }
+
+ #contato {
+     border-radius: 5px;
+     background-color: var(--one);
+     color: white;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 120px 30px;
+     margin: 70px;
+ }
